@@ -9,10 +9,10 @@ This will start off as just an HTML and CSS page. Over time it may grow and grow
 
 #####2. Create a branch 
   
-  + `git checkout -b "modify index file"`
+  + `git checkout -b "modify-index-file"`
   + Replace text in quotes with a descriptive branch name
   + Make sure you are on the branch by typing in `git status`
-  + Make your changes then run "git status" in the command line to remind yourself of what you did
+  + Make your changes then run `git status` in the command line to remind yourself of what you did
 
 #####3. If everything works, commit the changes by typing in the command line 
   
@@ -23,7 +23,7 @@ This will start off as just an HTML and CSS page. Over time it may grow and grow
 #####4. Switch to the master branch type in the command line 
   
   + `git checkout master`
-  + To merge the branch you committed, type in the command line `git merge modify index file`
+  + To merge the branch you committed, type in the command line `git merge modify-index-file`
 or whatever the branch name was
   + Finally to push the change, type in the command line `git push -u origin master`
 
