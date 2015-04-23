@@ -29,12 +29,20 @@ or whatever the branch name was
 
 Finally to push the change, type in the command line "git push -u origin master"
 
+To see the updated webpage, use
+https://htmlpreview.github.io/
+
+For example, to preview the index page:
+https://htmlpreview.github.io/?https://github.com/bryantt23/odin-project-beginnings/blob/master/index.html
+
 Feel free to modify, correct, or add to my explanation :)
 
 Here are additional sources of information on Git and Github
 
 https://na1.salesforce.com/help/pdfs/en/salesforce_git_developer_cheatsheet.pdf
+
 https://help.github.com/articles/pushing-to-a-remote/
+
 https://help.github.com/articles/fetching-a-remote/
 
 
