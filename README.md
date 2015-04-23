@@ -1,39 +1,37 @@
 # odin-project-beginnings
 This will start off as just an HTML and CSS page. Over time it may grow and grow.... 
 
-First of all, make sure you have Git installed on your computer.
+#####1. Make sure you have Git installed on your computer.
+  
+  + Use either your command line **(recommended)** or one of GitHub's GUI clients
+  + `git clone git@github.com:bryantt23/odin-project-beginnings.git`
+  + Change into that directory in the command line
 
-The next step is to type in the command line (or use the GUI based tools that are included in the Mac and Windows Github software)
+#####2. Create a branch 
+  
+  + `git checkout -b "modify index file"`
+  + Replace text in quotes with a descriptive branch name
+  + Make sure you are on the branch by typing in `git status`
+  + Make your changes then run "git status" in the command line to remind yourself of what you did
 
-git clone git@github.com:bryantt23/odin-project-beginnings.git
+#####3. If everything works, commit the changes by typing in the command line 
+  
+  + `git add .` This adds all of the files you modified
+  + Next type in the command line, `git commit -am "update index file by adding paragraphs"`
+  + Replace text in quotes with a descriptive commit name, make sure to use the imperative tense (*update* not updated)
 
-Next change into the directory in the command line.
-
-Create a branch based on what you want to do, i.e.  git checkout -b "modify index file"
-
-Make sure you are on the branch by typing in "git status"
-
-Make your changes then run "git status" in the command line to remind yourself of what you did
-
-If everything works, commit the changes by typing in the command line 
-"git add ."
-This adds all of the files you modified
-
-Next type in the command line, "git commit -am "updated index file by adding paragraphs"
-Or type in "" whatever specific changes you made
-
-To switch to the master branch type in the command line "git checkout master"
-
-To merge the branch you committed, type in the command line "git merge modify index file"
+#####4. Switch to the master branch type in the command line 
+  
+  + `git checkout master`
+  + To merge the branch you committed, type in the command line `git merge modify index file`
 or whatever the branch name was
-
-Finally to push the change, type in the command line "git push -u origin master"
+  + Finally to push the change, type in the command line `git push -u origin master`
 
 To see the updated webpage, use
-https://htmlpreview.github.io/
+https://rawgit.com
 
 For example, to preview the index page:
-https://htmlpreview.github.io/?https://github.com/bryantt23/odin-project-beginnings/blob/master/index.html
+https://rawgit.com/bryantt23/odin-project-beginnings/master/index.html
 
 Feel free to modify, correct, or add to my explanation :)
 
