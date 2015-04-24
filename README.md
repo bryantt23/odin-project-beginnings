@@ -37,11 +37,15 @@ Feel free to modify, correct, or add to my explanation :)
 
 Here are additional sources of information on Git and Github
 
-https://na1.salesforce.com/help/pdfs/en/salesforce_git_developer_cheatsheet.pdf
+[Git Cheatsheet](https://na1.salesforce.com/help/pdfs/en/salesforce_git_developer_cheatsheet.pdf)
 
-https://help.github.com/articles/pushing-to-a-remote/
+[Pushing to a remote](https://help.github.com/articles/pushing-to-a-remote/)
 
-https://help.github.com/articles/fetching-a-remote/
+[Fetching a remote](https://help.github.com/articles/fetching-a-remote/)
+
+[Markdown guide](http://daringfireball.net/projects/markdown/)
+
+[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 
 
