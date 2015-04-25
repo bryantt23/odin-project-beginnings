@@ -1,15 +1,13 @@
-
-h1   {
-  color:blue
-  }
-
+/*General Stylings*/
 body {
-  background-color:lightgrey
+  background-color:lightgrey; /*This changes the background color of the entire body*/ 
+}
+/*Headings*/
+h1   {
+  color:blue; /*This changes the h1 color*/
   }
+h2 {
+  color: black; /*This changes the h2 color*/
+}
 
-#bryant {
-  color:red;
-  font-size:300%;
-  }
-
-/*add styling based on the div you created*/
+/*Styling will devlop overtime*/
