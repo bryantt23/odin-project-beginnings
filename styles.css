@@ -1,13 +1,106 @@
 /*General Stylings*/
+
 body {
   background-color:lightgrey; /*This changes the background color of the entire body*/ 
+  font-family: arial,sans-serif;
+  font-size: 12px;
+  margin: 0; /* Pushes website elements to the top, leaving no white space */
 }
+
+#wrapper {
+  background-color:#ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 6px;
+  width: 960px;
+}
+
 /*Headings*/
 h1   {
   color:blue; /*This changes the h1 color*/
   }
 h2 {
   color: black; /*This changes the h2 color*/
+}
+
+/* Clearfix */
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+/* Grid-ish styles */
+
+.clear {
+  clear: both;
+}
+
+.padding-left {
+  paddding-left: 6px;
+}
+
+.padding-right {
+  padding-right: 6px;
+}
+
+.padding-top{
+  padding-top: 6px;
+}
+
+.padding-bottom {
+  padding-bottom: 6px;
+}
+
+.g1 {
+  width: 67px;
+}
+
+.g2 {
+  width: 134x;
+}
+
+.g3 {
+  width: 201px;
+}
+
+.g3 {
+  width: 268px;
+}
+
+.g4 {
+  width: 335px;
+}
+
+.g5 {
+  width: 402px;
+}
+
+.g6 {
+  width: 469px;
+}
+
+.g7 {
+  width: 536px;
+}
+
+.g8 {
+  width: 603px;
+}
+
+.g9 {
+  width: 670px;
+}
+
+.f-left {
+  float: left;
+}
+
+.test-bg {
+  background-color: red;
 }
 
 /*Styling will devlop overtime*/
