@@ -1,0 +1,36 @@
+<!-- this an instruction to the web browser
+about what version of HTML the page is written in -->
+<!DOCTYPE html>
+
+<html>
+<body>
+
+
+<!-- basic HTML h1 header -->
+<h1 id="id1">Hello!</h1>
+
+<!-- http://www.davesite.com/webstation/js/javascript_basics_variables_and_button_actions.shtml -->
+<p><form name="Exercise_2"><b>Exercise 2:</b><br><br>
+
+  <!-- http://stackoverflow.com/questions/2267476/html-script-tag-type-or-language-or-omit-both -->
+<script ="Javascript"><!--
+  ourText = "Welcome to our website, "
+// --></script>
+
+Type your Name: <input name="visitor_name"><br>
+<input name="showMeArea" readonly="true" size="30">
+<input type="button" value="Show Message!"
+       OnClick="showMeArea.value=ourText + visitor_name.value + '!';
+       changeTxt('Hello ' + visitor_name.value + '!','id1');"
+       >
+</form></p>
+
+
+<!-- http://community.sitepoint.com/t/changing-h1-tag-when-link-is-clicked/111256/2 -->
+<script type="javascript">
+  function changeTxt(t,o){
+    var o = document.getElementById(o);
+   o.innerHTML = t; //Will change the text within the H1 tag to whatever you supply in the first argument, 't'.
+   o.style.color = "#F00"; //This will change the color of the new text to RED.
+  }
+</script>
